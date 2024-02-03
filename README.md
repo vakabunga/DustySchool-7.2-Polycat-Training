@@ -7,6 +7,6 @@
 1. git clone
 2. npm install
 3. npm start
-4. `node index` in another termminal tab
+4. `node server` in another termminal tab
 5. go to `http://localhost:8080`
 6. choose language and click 'Translate'
