@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Поликот</title>
+</head>
+
+<body class="page">
+  <section class="translator-app-container">
+    <h1>Переводчик слов</h1>
+    <form class="translation-form" action="">
+      <div class="languages-container">
+        <div class="languages-container__from">
+          <p>Выберете язык с которого нужно перевести</p>
+          <select class="languages-list-from" name="languages-list-from" id="">
+          </select>
+        </div>
+        <div class="languages-container__to">
+          <p>Выберете язык на который нужно перевести</p>
+          <select class="languages-list-to" name="languages-list-to" id="">
+          </select>
+        </div>
+      </div>
+      <div class="translation-container">
+        <div>
+          <p>Введите слово для перевода</p>
+          <input class="text-to-translate" type="none">
+          <button class="translate-button">Перевести</button>
+        </div>
+        <div>
+          <p>Перевод:</p>
+          <p class="translation-result"></p>
+        </div>
+      </div>
+    </form>
+    <p class="status-text"></p>
+  </section>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

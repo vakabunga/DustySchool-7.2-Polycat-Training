@@ -1,0 +1,24 @@
+.translator-app-container {
+  max-width: 800px;
+  min-width: 490px;
+}
+
+.languages-container,
+.translation-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.languages-container__from,
+.languages-container__to {
+  width: 315px;
+}
+
+.translation-result {
+  font-weight: 700;
+}
+
+.status-text {
+  color: #ff0000;
+}
